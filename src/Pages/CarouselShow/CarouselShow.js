@@ -1,44 +1,50 @@
 import React from 'react';
 import { Carousel, CarouselItem } from 'react-bootstrap';
+import Zoom from 'react-reveal/Zoom';
 
 const CarouselShow = () => {
     return (
         <div>
             <Carousel>
                 <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://findlogovector.com/wp-content/uploads/2018/11/mongodb-logo-vector.png"
-                        alt="First slide"
-                        height="150px"
-                    />
+                    <Zoom>
+                        <img
+                            className="d-block w-100"
+                            src="https://i.ibb.co/cvpVQQF/Screenshot-23-removebg-preview.png"
+                            alt="First slide"
+                            height="200px"
+                        />
+                    </Zoom>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://stringfixer.com/files/29940418.jpg"
-                        alt="Second slide"
-                        height="150px"
-                    />
-
+                    <Zoom>
+                        <img
+                            className="d-block w-100"
+                            src="https://i.ibb.co/VLPxj6J/mongodb-logo-vector-removebg-preview.png"
+                            alt="Second slide"
+                            height="200px"
+                        />
+                    </Zoom>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://miro.medium.com/max/2000/1*EVqCcmCPgpNKxU1wzcTHgw.png"
-                        alt="Third slide"
-                        height="150px"
-                    />
-
+                    <Zoom>
+                        <img
+                            className="d-block w-100"
+                            src="https://i.ibb.co/mCJ1y13/29940418-removebg-preview.png"
+                            alt="Third slide"
+                            height="200px"
+                        />
+                    </Zoom>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://storage.googleapis.com/5paisa-prod-storage/files/2021-06/nodejs.png"
-                        alt="Third slide"
-                        height="150px"
-                    />
-
+                    <Zoom>
+                        <img
+                            className="d-block w-100"
+                            src="https://i.ibb.co/5xmKpVY/1-EVq-Ccm-CPgp-NKx-U1wzc-THgw-removebg-preview.png"
+                            alt="Third slide"
+                            height="200px"
+                        />
+                    </Zoom>
                 </Carousel.Item>
             </Carousel>
         </div>

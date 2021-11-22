@@ -1,0 +1,23 @@
+.banner{
+  background-image: url('https://i.ibb.co/s3Rhtc7/wave.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.name{
+    font-size: 60px !important;
+}
+.zoom-in-zoom-out {
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(0.95, 0.95);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }

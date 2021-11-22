@@ -1,23 +1,51 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import CarouselShow from '../CarouselShow/CarouselShow';
-
+import './Banner.css';
+import Zoom from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
+import Rotate from 'react-reveal/Rotate';
+import Navigation from '../Navigation/Navigation';
 
 const Banner = () => {
     return (
-        <Container>
-            <div className="row">
-                <div className="col-md-6 d-flex flex-column  justify-content-center">
-                    <h1>Hello , Welcome to <br /> <span className="text-danger fs-1">Hasibur Rahman</span> world</h1>
-                    <h1>MERN stack web developer</h1>
-                    <CarouselShow />
-                    <p>Hi This is me Hasibur Rahman . You can call me a tech enthusiast. Learning is my passion . I am also learning now. Currently I am living in Dhaka. I am a MERN stack web developer. As a MERN stack Developer I know MongoDb, Express , NodeJs and ReactJs very well. Personally I love to watch movies ans sports</p>
-                </div>
-                <div className="col-md-6">
-                    <img src="https://i.ibb.co/n6fNXhp/durjoy.png" alt="" width="450" />
-                </div>
-            </div>
-        </Container>
+        <div className="banner" id="banner">
+            <Navigation />
+            <Zoom bottom cascade big >
+                <Container className="pt-5">
+                    <div className="row">
+                        <div className="col-md-6 d-flex flex-column  justify-content-center">
+                            <h1>Hello , Welcome to <br />
+                                <Bounce left cascade>
+                                    <div className="text-danger fs-1 name zoom-in-zoom-out" style={{ fontWeight: 900, letterSpacing: 2 }}>Hasibur Rahman</div>
+                                </Bounce>
+                                world
+                            </h1>
+                            <h1>
+                                <Zoom left cascade>
+                                    <span style={{ fontSize: 40, fontWeight: 900, letterSpacing: 5 }}>
+                                        <span className="text-success">M</span>
+                                        <span className="text-warning">E</span>
+                                        <span className="text-primary">R</span>
+                                        <span className="text-success">N</span>
+                                    </span>
+                                </Zoom>
+                                {'  '}stack web developer
+                            </h1>
+                            <Zoom bottom big >
+                                <CarouselShow />
+                            </Zoom>
+
+                        </div>
+                        <Bounce right cascade big>
+                            <div className="col-md-6 zoom-in-zoom-out">
+                                <img className="banner-image zoom-in-zoom-out" className="img-fluid" src="https://i.ibb.co/n6fNXhp/durjoy.png" alt="" />
+                            </div>
+                        </Bounce>
+                    </div>
+                </Container >
+            </Zoom>
+        </div>
     );
 };
 
