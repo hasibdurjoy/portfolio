@@ -9,7 +9,7 @@ import './Experiences.css';
 const Experiences = () => {
     const [experiences, setExperiences] = useState([]);
     useEffect(() => {
-        fetch('./Experiences.json')
+        fetch('https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/public/experiences.json')
             .then(res => res.json())
             .then(data => setExperiences(data))
     }, [])
