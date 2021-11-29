@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import Zoom from 'react-reveal/Zoom';
+import CarouselShow from '../CarouselShow/CarouselShow';
 
 const About = () => {
     return (
@@ -11,7 +12,7 @@ const About = () => {
                 <div className="col-md-6 p-5">
                     <img className="banner-image" className="img-fluid" src="https://i.ibb.co/n6fNXhp/durjoy.png" alt="" />
                 </div>
-                <div className="col-md-6 d-flex justify-content-center align-items-center">
+                <div className="col-md-6 d-flex flex-column justify-content-center align-items-center">
                     <Zoom left cascade>
                         <p style={{ fontSize: 18, fontWeight: 700 }} className=" text-start text-dark">Hi This is me {' '}
                             <span className="text-danger" style={{ fontSize: 30, fontWeight: 900 }}>Hasibur Rahman</span>
@@ -34,6 +35,9 @@ const About = () => {
                             {' '}<span className="text-warning" style={{ fontSize: 25 }}>Express</span> {' '},
                             {' '}<span className="text-success" style={{ fontSize: 25 }}>NodeJs</span>{' '} and
                             {' '}<span className="text-primary" style={{ fontSize: 25 }}>ReactJs</span> very well. Personally I love to watch movies ans sports</p>
+                        <Zoom bottom big >
+                            <CarouselShow />
+                        </Zoom>
                     </Zoom>
                 </div>
             </div>

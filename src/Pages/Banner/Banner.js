@@ -32,9 +32,7 @@ const Banner = () => {
                                 </Zoom>
                                 {'  '}stack web developer
                             </h1>
-                            <Zoom bottom big >
-                                <CarouselShow />
-                            </Zoom>
+
 
                         </div>
                         <Bounce right cascade big>
