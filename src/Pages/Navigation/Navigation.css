@@ -1,6 +1,10 @@
 .navbar-active{
     background-color: #24263b;
 }
+.navbar-scroll{
+    background-color: #24263b;
+    border-bottom: 2px solid white;
+}
 
 .nav-name{
     font-weight:bolder !important;

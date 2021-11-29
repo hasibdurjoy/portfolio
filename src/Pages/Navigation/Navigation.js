@@ -18,7 +18,7 @@ const Navigation = () => {
     }
     window.addEventListener('scroll', handleScroll);
     return (
-        <Navbar collapseOnSelect expand="lg" className="navbar-active" fixed="top">
+        <Navbar collapseOnSelect expand="lg" className={scroll ? "navbar-scroll" : "navbar-active"} fixed="top">
             <Container>
                 <Navbar.Brand href="/" className="nav-name">HASIBUR RAHMAN</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
