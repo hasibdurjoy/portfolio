@@ -44,7 +44,7 @@
     {
         "id": 7,
         "name": "MongoDB",
-        "image": "https://i.ibb.co/f9STxZL/Mongo-DB-logo.png",
+        "image": "https://github.com/hasibdurjoy/portfolio/blob/main/src/Utilities/images/resized/MongoDB-logo.png",
         "progress": "80",
         "variant": "success"
     },
@@ -65,7 +65,7 @@
     {
         "id": 10,
         "name": "Bootstrap",
-        "image": "https://i.ibb.co/BVZg6cf/bootstrap.png",
+        "image": "https://github.com/hasibdurjoy/portfolio/blob/main/src/Utilities/images/resized/bootstrap.png",
         "progress": "90",
         "variant": "primary"
     },
