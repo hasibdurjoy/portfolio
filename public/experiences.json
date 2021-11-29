@@ -65,7 +65,7 @@
     {
         "id": 10,
         "name": "Bootstrap",
-        "image": "https://github.com/hasibdurjoy/portfolio/blob/main/src/Utilities/images/resized/bootstrap.png",
+        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/resized/bootstrap.png",
         "progress": "90",
         "variant": "primary"
     },
