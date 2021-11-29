@@ -5,7 +5,7 @@ import video2 from '../../Utilities/Videos/wall-wreath.mp4';
 
 const Projects = () => {
     return (
-        <Container className="mt-5">
+        <Container className="mt-5" id="projects">
             <h2 className="mb-5 text-danger">Recent Projects</h2>
 
             <Row xs={1} md={2} className="g-4">

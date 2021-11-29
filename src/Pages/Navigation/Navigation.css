@@ -11,7 +11,7 @@
 
 .nav-link{
     text-decoration: none;
-    color: white;
+    color: wheat !important;
     margin-right: 5px;
     font-size: 18px;
     font-weight: 600;

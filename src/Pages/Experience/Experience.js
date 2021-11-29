@@ -5,7 +5,7 @@ import Bounce from 'react-reveal/Bounce';
 import Rotate from 'react-reveal/Rotate';
 
 const Experience = ({ experience }) => {
-    const { name, image } = experience;
+    const { name, image, progress, variant } = experience;
     return (
         <Zoom>
             <Col className="h-100">
@@ -15,7 +15,7 @@ const Experience = ({ experience }) => {
                     </Bounce>
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>
-                        <ProgressBar animated now={90} label={`80%`} variant="danger" />
+                        <ProgressBar animated now={parseInt(progress)} label={`${parseInt(progress)}%`} variant={variant} />
                     </Card.Body>
                 </Card>
             </Col>

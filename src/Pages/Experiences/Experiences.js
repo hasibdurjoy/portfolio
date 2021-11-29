@@ -14,14 +14,14 @@ const Experiences = () => {
             .then(data => setExperiences(data))
     }, [])
     return (
-        <div className="experiences py-3">
+        <div className="experiences py-3 ">
             <Container className="mt-5" id="experiences">
-                <h2 className="text-danger mb-5">Experiences</h2>
+                <h2 className="text-danger mb-5" style={{ fontSize: 50, fontWeight: 700 }}>Experiences</h2>
                 <div className="row">
                     <div className="col-md-4 my-auto">
-                        <img className="w-100" src="https://i.ibb.co/MMJcFNZ/skills-features-img.png" alt="" />
+                        <img className="w-100 img-fluid" src="https://i.ibb.co/MMJcFNZ/skills-features-img.png" alt="" />
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-8 pt-3">
                         <Row xs={3} md={4} className="g-4">
                             {
                                 experiences.map(experience => <Experience key={experience.id} experience={experience} />)

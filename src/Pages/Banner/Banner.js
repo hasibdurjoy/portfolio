@@ -12,7 +12,7 @@ const Banner = () => {
     return (
         <>
             <Navigation />
-            <div className="banner">
+            <div className="banner" id="home">
                 <Container className="banner-container">
                     <Row xs={1} md={2} >
                         <Col className="d-flex flex-column justify-content-center text-start pb-5">
