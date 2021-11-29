@@ -3,43 +3,56 @@
         "id": 1,
         "name": "HTML 5",
         "image": "https://i.ibb.co/JtZJqcJ/html5.png",
-        "progress": "90"
+        "progress": "90",
+        "variant": "danger"
     },
     {
         "id": 2,
         "name": "CSS 3",
         "image": "https://i.ibb.co/mHvFvqz/css3.png",
-        "progress": "90"
+        "progress": "90",
+        "variant": "primary"
     },
     {
         "id": 3,
         "name": "JavaScript",
         "image": "https://i.ibb.co/rsXv6Kb/javascript.png",
-        "progress": "70"
+        "progress": "70",
+        "variant": "warning"
     },
     {
         "id": 4,
         "name": "Firebase",
-        "image": "https://i.ibb.co/fNLkSFs/firebase-logo.png"
+        "image": "https://i.ibb.co/fNLkSFs/firebase-logo.png",
+        "progress": "80",
+        "variant": "warning"
     },
     {
         "id": 5,
         "name": "React JS",
-        "image": "https://i.ibb.co/zsNDFDN/react.png"
+        "image": "https://i.ibb.co/zsNDFDN/react.png",
+        "progress": "85",
+        "variant": "primary"
     },
     {
         "id": 6,
         "name": "Node JS",
-        "image": "https://i.ibb.co/vHhfHLY/nodejs.png"
+        "image": "https://i.ibb.co/vHhfHLY/nodejs.png",
+        "progress": "60",
+        "variant": "success"
     },
     {
         "id": 7,
         "name": "MongoDB",
-        "image": "https://i.ibb.co/f9STxZL/Mongo-DB-logo.png"
+        "image": "https://i.ibb.co/f9STxZL/Mongo-DB-logo.png",
+        "progress": "80",
+        "variant": "success"
     },
     {
         "id": 8,
         "name": "Express JS",
-        "image": "https://i.ibb.co/bX5w7y4/express-js.png"
+        "image": "https://i.ibb.co/bX5w7y4/express-js.png",
+        "progress": "75",
+        "variant": "warning"
     }
 ]

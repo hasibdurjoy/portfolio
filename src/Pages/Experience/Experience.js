@@ -8,10 +8,10 @@ const Experience = ({ experience }) => {
     const { name, image } = experience;
     return (
         <Zoom>
-            <Col>
+            <Col className="h-100">
                 <Card className="border-0 shadow">
                     <Bounce>
-                        <Card.Img className="w-100 p-3 mx-auto " variant="top" src={image} height="150px" />
+                        <Card.Img className="p-3" variant="top" src={image} height="150px" />
                     </Bounce>
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>

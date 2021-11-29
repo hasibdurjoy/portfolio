@@ -1,3 +1,18 @@
 .navbar-active{
-    background-image: url('https://i.ibb.co/s3Rhtc7/wave.png');
+    background-color: #24263b;
+}
+
+.nav-name{
+    font-weight:bolder !important;
+    color: white !important;
+    font-family:Bradley Hand, cursive;
+    font-size: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 600;
 }

@@ -22,7 +22,7 @@ const Experiences = () => {
                         <img className="w-100" src="https://i.ibb.co/MMJcFNZ/skills-features-img.png" alt="" />
                     </div>
                     <div className="col-md-8">
-                        <Row xs={1} md={4} className="g-4">
+                        <Row xs={3} md={4} className="g-4">
                             {
                                 experiences.map(experience => <Experience key={experience.id} experience={experience} />)
                             }
