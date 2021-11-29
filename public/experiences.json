@@ -54,5 +54,33 @@
         "image": "https://i.ibb.co/bX5w7y4/express-js.png",
         "progress": "75",
         "variant": "warning"
+    },
+    {
+        "id": 9,
+        "name": "Material UI",
+        "image": "https://i.ibb.co/610Y9JB/mui.png",
+        "progress": "80",
+        "variant": "primary"
+    },
+    {
+        "id": 10,
+        "name": "Bootstrap",
+        "image": "https://i.ibb.co/BVZg6cf/bootstrap.png",
+        "progress": "90",
+        "variant": "primary"
+    },
+    {
+        "id": 11,
+        "name": "Tailwind CSS",
+        "image": "https://i.ibb.co/2hCsSQw/tailwind.png",
+        "progress": "60",
+        "variant": "primary"
+    },
+    {
+        "id": 12,
+        "name": "Github",
+        "image": "https://i.ibb.co/DR4Mhsm/github.png",
+        "progress": "95",
+        "variant": "dark"
     }
 ]

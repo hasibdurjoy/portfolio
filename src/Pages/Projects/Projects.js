@@ -7,7 +7,7 @@ import Project from '../Project/Project';
 const Projects = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
-        fetch('./projects.json')
+        fetch('https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/public/projects.json')
             .then(res => res.json())
             .then(data => setProjects(data))
     }, [])
