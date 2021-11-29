@@ -52,7 +52,7 @@ const Banner = () => {
                         </Col>
                         <Col>
                             <Bounce right cascade big>
-                                <img className="rounded-circle" src="https://i.ibb.co/n6fNXhp/durjoy.png" alt="" height="350px" />
+                                <img className="rounded-circle" src="https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/durjoy.png" alt="" height="350px" />
                             </Bounce>
                         </Col>
                     </Row>

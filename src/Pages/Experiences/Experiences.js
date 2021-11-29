@@ -19,7 +19,7 @@ const Experiences = () => {
                 <h2 className="text-danger mb-5" style={{ fontSize: 50, fontWeight: 700 }}>Experiences</h2>
                 <div className="row">
                     <div className="col-md-4 my-auto">
-                        <img className="w-100 img-fluid" src="https://i.ibb.co/MMJcFNZ/skills-features-img.png" alt="" />
+                        <img className="w-100 img-fluid" src="https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/skills-features-img.png" alt="" />
                     </div>
                     <div className="col-md-8 pt-3">
                         <Row xs={3} md={4} className="g-4">
