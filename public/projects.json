@@ -29,7 +29,8 @@
             "Find Best quality poster easily by this website",
             "admin can manage bookings, manage posters",
             "admin can make other user as an admin"
-        ]
+        ],
+        "details": "This is a poster selling website. You can buy posters from this website . Here you can find all god posters with a cheaper price"
     },
     {
         "id": 2,
@@ -61,7 +62,8 @@
             "User can get all services like ambulance, pathology ",
             "Without login cant see details",
             "Can get appointment"
-        ]
+        ],
+        "details": "This is a hospital related website. All kinds of hospital related services are available here. You can get appointments here"
     },
     {
         "id": 3,
@@ -94,6 +96,7 @@
             "Admin Can Add new package",
             "Admin can handle all bookings",
             "User give review dynamically"
-        ]
+        ],
+        "details": "Travel with HRD is a traveling package related website. Here you can book packages for you and your family or friend for a great tour."
     }
 ]

@@ -22,9 +22,9 @@ const Project = ({ project }) => {
                             }
                         </ul>
                     </Card.Text> */}
-                    <Card.Footer>
-                        <button onClick={() => { handleClick(project.id) }} className="btn btn-primary rounded-pill">See Details</button>
-                    </Card.Footer>
+                    {/* <Card.Footer className="bg-light"> */}
+                    <button onClick={() => { handleClick(project.id) }} className="btn btn-primary rounded-pill">See Details</button>
+                    {/* </Card.Footer> */}
                 </Card.Body>
             </Card>
         </Col>

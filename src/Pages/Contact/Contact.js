@@ -9,8 +9,8 @@ const Contact = () => {
             <h1 className="mb-5">Contact Me</h1>
             <Container>
                 <Row sx={1} md={2}>
-                    <Col>
-                        <iframe width="450" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=azimpur&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <Col className="d-flex align-items-center">
+                        <iframe width="350" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=azimpur&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     </Col>
                     <Col>
                         <Card style={{ maxWidth: "450px" }} className="mx-auto border-0 shadow-lg p-3">

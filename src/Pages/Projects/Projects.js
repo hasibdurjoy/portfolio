@@ -13,8 +13,7 @@ const Projects = () => {
     }, [])
     return (
         <Container className="mt-5" id="projects">
-            <h2 className="mb-5 text-danger">Recent Projects</h2>
-
+            <h2 className="mb-5 " style={{ fontSize: 50, fontWeight: 700 }}>Recent <span className="text-danger">Projects</span></h2>
             <Row xs={1} md={3} className="g-4">
                 {
                     projects.map(project => <Project project={project}></Project>)

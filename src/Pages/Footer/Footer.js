@@ -5,6 +5,7 @@ const Footer = () => {
         <div style={{ backgroundColor: '#24263b' }}>
             <div className="container">
                 <div className="pb-4">
+                    <span className="text-danger fs-1 name" style={{ fontWeight: 900, letterSpacing: 1 }}>Hasibur Rahman</span>
                     {/* <img style={{ width: '250px' }} src={logo} alt="" /> */}
                 </div>
                 <div>
@@ -28,16 +29,10 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className="row">
-                        <div className="col-md-2"></div>
+                        <div className="col-md-2">
+
+                        </div>
                         <div className="col-md-8">
-                            <div className="d-flex justify-content-between align-items-center mt-5">
-                                <p className="fw-bold text-white">Home</p>
-                                <p className="fw-bold text-white">Projects</p>
-                                <p className="fw-bold text-white">Portfolio</p>
-                                <p className="fw-bold text-white">Blog</p>
-                                <p className="fw-bold text-white">Contacts</p>
-                            </div>
-                            <p style={{ color: 'wheat' }}>Copyright © 2021 Hasibur Rahman. All Rights Reserved.</p>
                             <div className="mb-4">
                                 <i style={{ color: 'white', marginRight: '25px' }} class="fab fa-github fa-2x"></i>
                                 <i style={{ color: 'white', marginRight: '25px' }} class="fab fa-linkedin-in fa-2x"></i>
@@ -45,6 +40,7 @@ const Footer = () => {
                                 <i style={{ color: 'white', marginRight: '25px' }} class="fab fa-twitter fa-2x"></i>
                                 <i style={{ color: 'white', marginRight: '25px' }} class="fab fa-instagram fa-2x"></i>
                             </div>
+                            <p style={{ color: 'wheat' }}>Copyright © 2021 Hasibur Rahman. All Rights Reserved.</p>
                         </div>
                         <div className="col-md-2"></div>
                     </div>

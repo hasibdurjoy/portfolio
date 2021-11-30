@@ -16,11 +16,11 @@ const Banner = () => {
                 <Container className="banner-container">
                     <Row xs={1} md={2} >
                         <Col className="d-flex flex-column justify-content-center text-start pb-5">
-                            <h3>Hello!!! Welcome to <br />
-                                <Bounce left cascade>
-                                    <span className="text-danger fs-1 name zoom-in-zoom-out" style={{ fontWeight: 900, letterSpacing: 1 }}>Hasibur Rahman</span>world
-                                </Bounce>
-                            </h3>
+                            <Bounce left cascade>
+                                <h3>Hello!!! Welcome to <br />
+                                    <span className="text-danger fs-1 name" style={{ fontWeight: 900, letterSpacing: 1 }}>Hasibur Rahman </span> world
+                                </h3>
+                            </Bounce>
                             <h5>
                                 <Zoom left cascade>
                                     <span style={{ fontSize: 40, fontWeight: 900, letterSpacing: 5 }}>
@@ -37,14 +37,14 @@ const Banner = () => {
                                     <a
                                         href="https://drive.google.com/file/d/1g637hbQOzwjLsLkPRwYnSp870VCUWl6j/view"
                                         target="_blank">
-                                        <button className="btn btn btn-danger rounded-pill text-white">Download Resume</button>
+                                        <button className="btn btn btn-danger rounded-pill text-white p-3">Download Resume</button>
                                     </a>
                                 </Col>
                                 <Col>
                                     <a
                                         href="https://www.linkedin.com/in/hasibur2571/"
                                         target="_blank">
-                                        <button className="btn btn btn-outline-danger rounded-pill text-white">Hire Me</button>
+                                        <button className="btn btn btn-outline-danger rounded-pill text-white p-3">Hire Me</button>
                                     </a>
                                 </Col>
                             </Row>
