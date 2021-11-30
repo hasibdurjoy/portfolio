@@ -31,6 +31,7 @@ const Navigation = () => {
                         <NavHashLink to="/home#experiences" className="nav-link">Experiences</NavHashLink>
                         <NavHashLink to="/home#projects" className="nav-link">Projects</NavHashLink>
                         <NavHashLink to="/home#contact" className="nav-link">Contact</NavHashLink>
+                        <NavHashLink to="/home#blogs" className="nav-link">Blogs</NavHashLink>
                         <a
                             href="https://drive.google.com/file/d/1g637hbQOzwjLsLkPRwYnSp870VCUWl6j/view"
                             target="_blank">

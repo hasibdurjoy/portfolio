@@ -10,7 +10,7 @@ const About = () => {
             {/* <Card className="border-0 mt-3 shadow-lg p-5"> */}
             <Row xs={1} md={2}>
                 <Col className="px-5">
-                    <img className="banner-image" className="img-fluid" src="https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/durjoy.png" alt="" />
+                    <img className="banner-image" className="img-fluid" src="https://i.ibb.co/NtLxpRL/crop-removebg-preview.png" alt="" />
                 </Col>
                 <Col className="d-flex flex-column justify-content-center align-items-center">
                     <Zoom left cascade>
