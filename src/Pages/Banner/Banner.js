@@ -32,22 +32,22 @@ const Banner = () => {
                                 </Zoom>
                                 {'  '}stack web developer
                             </h5>
-                            <Row xs={2} md={2} className="mt-3">
-                                <Col>
-                                    <a
-                                        href="https://drive.google.com/file/d/1g637hbQOzwjLsLkPRwYnSp870VCUWl6j/view"
-                                        target="_blank">
-                                        <button className="btn btn btn-danger rounded-pill text-white p-3">Download Resume</button>
-                                    </a>
-                                </Col>
-                                <Col>
-                                    <a
-                                        href="https://www.linkedin.com/in/hasibur2571/"
-                                        target="_blank">
-                                        <button className="btn btn btn-outline-danger rounded-pill text-white p-3">Hire Me</button>
-                                    </a>
-                                </Col>
-                            </Row>
+
+                            <div className="d-flex gap-2 justify-content-start">
+                                <a
+                                    className="d-block"
+                                    href="https://drive.google.com/file/d/1g637hbQOzwjLsLkPRwYnSp870VCUWl6j/view"
+                                    target="_blank">
+                                    <button className="btn btn btn-danger rounded-pill text-white p-3">Download Resume</button>
+                                </a>
+                                <a
+                                    className="d-block"
+                                    href="https://www.linkedin.com/in/hasibur2571/"
+                                    target="_blank">
+                                    <button className="btn btn btn-outline-danger rounded-pill text-white p-3">Hire Me</button>
+                                </a>
+                            </div>
+
                         </Col>
                         <Col>
                             <Bounce right cascade big>

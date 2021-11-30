@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
+import Footer from '../Footer/Footer';
+import Navigation from '../Navigation/Navigation';
 
 const ProjectDetails = () => {
     const { projectId } = useParams();
@@ -13,10 +15,11 @@ const ProjectDetails = () => {
                 setProject(data.find(single => single.id == projectId));
             })
     }, [])
-    console.log(project);
+    console.log(project.liveLink);
     return (
         <>
-            <Container>
+            <Navigation />
+            <Container className="mt-5 pt-5">
                 <h2>{project.name}</h2>
                 <Row xs={1} md={2}>
                     <Col>
@@ -34,9 +37,16 @@ const ProjectDetails = () => {
                                 }
                             </div>
                             <div className="d-flex justify-content-around my-3">
-                                <button className="btn btn-primary rounded-pill">Live Link </button>
-                                <button className="btn btn-secondary rounded-pill">Client Side</button>
-                                <button className="btn btn-dark rounded-pill">Server Side</button>
+                                <a href={project.liveLink} target="_blank">
+                                    <button className="btn btn-primary rounded-pill">Live Link </button>
+                                </a>
+                                {project.clientSide !== "" && <a href={project.clientSide} target="_blank">
+                                    <button className="btn btn-secondary rounded-pill">Client Side </button>
+                                </a>}
+                                {project.serverSide !== "" && <a href={project.serverSide} target="_blank">
+                                    <button className="btn btn-dark rounded-pill">Server Side </button>
+                                </a>}
+
                             </div>
                         </Card>
                         <h2>Sample</h2>
@@ -51,6 +61,7 @@ const ProjectDetails = () => {
                     </Col>
                 </Row>
             </Container>
+            <Footer />
         </>
     );
 };

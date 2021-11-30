@@ -15,13 +15,9 @@ const Project = ({ project }) => {
                 <img src={project.cardImage} alt="" />
                 <Card.Body>
                     <Card.Title>{project.name}</Card.Title>
-                    {/* <Card.Text className={show ? "show" : "hide"}>
-                        <ul>
-                            {
-                                project.description.map(tech => <li className="text-start">{tech}</li>)
-                            }
-                        </ul>
-                    </Card.Text> */}
+                    <Card.Body>
+                        {project.details}
+                    </Card.Body>
                     {/* <Card.Footer className="bg-light"> */}
                     <button onClick={() => { handleClick(project.id) }} className="btn btn-primary rounded-pill">See Details</button>
                     {/* </Card.Footer> */}
