@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
 
 const ProjectDetails = () => {
@@ -13,11 +14,30 @@ const ProjectDetails = () => {
             })
     }, [])
     return (
-        <div>
+        <Container>
             <h2>{project.name}</h2>
-            <a href={project.liveLink}><button>Live Site</button></a> <br />
-            <img src={project.landingPage} alt="" width="50%" />
-        </div>
+            <Row sx={1} md={2}>
+                <Col>
+
+                    <img src={project.landingPage} alt="" width="100%" />
+                </Col>
+                <Col>
+                    <h5>Description</h5>
+                    <ul>
+                        {
+                            project?.description?.map(des => <li className="text-start">{des}</li>)
+                        }
+                    </ul>
+                    <h5>Technology Used</h5>
+                    <ul>
+                        {
+                            project?.technology?.map(des => <li className="text-start">{des}</li>)
+                        }
+                    </ul>
+                    <img src={project.image1} alt="" />
+                </Col>
+            </Row>
+        </Container>
     );
 };
 
