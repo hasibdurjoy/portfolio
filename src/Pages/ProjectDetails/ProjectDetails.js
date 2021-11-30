@@ -35,6 +35,7 @@ const ProjectDetails = () => {
                         }
                     </ul>
                     <img src={project.image1} alt="" />
+                    <img src={project.image2} alt="" />
                 </Col>
             </Row>
         </Container>
