@@ -31,8 +31,8 @@ const Contact = () => {
                                     <Form.Label className="mt-3 text-dark">Description</Form.Label>
                                     <Form.Control as="textarea" rows={3} />
                                 </Form.Group>
-                                <Button type="submit" className="btn btn-danger rounded-pill mt-4">
-                                    Submit
+                                <Button type="submit" className="btn btn-primary rounded-pill mt-4">
+                                    Send E-mail
                                 </Button>
                             </Form>
                         </Card>
