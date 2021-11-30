@@ -11,17 +11,17 @@ const Project = ({ project }) => {
     }
     return (
         <Col>
-            <Card className="h-100 border-0 shadow-lg p-3 rounded" onMouseEnter={() => { setShow(true) }} onMouseLeave={() => { setShow(false) }}>
-                <img src={project.cardImage} alt="" className={show ? "hide" : "show"} />
+            <Card className="h-100 border-0 shadow-lg  rounded" onMouseEnter={() => { setShow(true) }} onMouseLeave={() => { setShow(false) }}>
+                <img src={project.cardImage} alt="" />
                 <Card.Body>
                     <Card.Title>{project.name}</Card.Title>
-                    <Card.Text className={show ? "show" : "hide"}>
+                    {/* <Card.Text className={show ? "show" : "hide"}>
                         <ul>
                             {
                                 project.description.map(tech => <li className="text-start">{tech}</li>)
                             }
                         </ul>
-                    </Card.Text>
+                    </Card.Text> */}
                     <Card.Footer>
                         <button onClick={() => { handleClick(project.id) }} className="btn btn-primary rounded-pill">See Details</button>
                     </Card.Footer>

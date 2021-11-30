@@ -16,12 +16,11 @@ const Banner = () => {
                 <Container className="banner-container">
                     <Row xs={1} md={2} >
                         <Col className="d-flex flex-column justify-content-center text-start pb-5">
-                            <h1>Hello , Welcome to <br />
+                            <h3>Hello!!! Welcome to <br />
                                 <Bounce left cascade>
-                                    <div className="text-danger fs-1 name zoom-in-zoom-out" style={{ fontWeight: 900, letterSpacing: 2 }}>Hasibur Rahman</div>
+                                    <span className="text-danger fs-1 name zoom-in-zoom-out" style={{ fontWeight: 900, letterSpacing: 1 }}>Hasibur Rahman</span>world
                                 </Bounce>
-                                world
-                            </h1>
+                            </h3>
                             <h5>
                                 <Zoom left cascade>
                                     <span style={{ fontSize: 40, fontWeight: 900, letterSpacing: 5 }}>

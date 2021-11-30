@@ -13,12 +13,16 @@
             "Firebase",
             "MaterialUI",
             "HTML5",
-            "CSS3"
+            "CSS3",
+            "React-hook-form"
         ],
         "description": [
             "See posters before log in but can book after log in also User can give reviews",
             "Can Order new and Cancel orders.",
-            "Admin can add new posters."
+            "Admin can add new posters.",
+            "Find Best quality poster easily by this website",
+            "admin can manage bookings, manage posters",
+            "admin can make other user as an admin"
         ]
     },
     {
@@ -33,14 +37,18 @@
             "Node",
             "MongoDB",
             "Firebase",
-            "MaterialUI",
+            "Bootstrap5",
             "HTML5",
-            "CSS3"
+            "CSS3",
+            "React-hook-form",
+            "Font awesome"
         ],
         "description": [
-            "User Can See all packages before login and can book after login",
-            "User Can cancel their bookings",
-            "Admin can add new packages"
+            "Any user can see packages and services",
+            "User can book appointment and hire nurses after login",
+            "User can get all services like ambulance, pathology ",
+            "Without login cant see details",
+            "Can get appointment"
         ]
     },
     {
@@ -55,14 +63,17 @@
             "Node",
             "MongoDB",
             "Firebase",
-            "MaterialUI",
+            "Bootstrap",
             "HTML5",
             "CSS3"
         ],
         "description": [
-            "Any user can see packages and services",
-            "User can book appointment and hire nurses after login",
-            "User can get all services like ambulance, pathology "
+            "User Can See all packages before login and can book after login",
+            "User Can cancel their bookings",
+            "Admin can add new packages",
+            "Admin Can Add new package",
+            "Admin can handle all bookings",
+            "User give review dynamically"
         ]
     }
 ]
