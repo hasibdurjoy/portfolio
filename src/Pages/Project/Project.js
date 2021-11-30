@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { useNavigate } from 'react-router';
 import './Project.css';
 
 const Project = ({ project }) => {
     const [show, setShow] = useState(false);
+    const navigate = useNavigate();
+    const handleClick = id => {
+        navigate(`/projects/${id}`)
+    }
     return (
         <Col>
             <Card className="h-100 border-0 shadow-lg p-3 rounded" onMouseEnter={() => { setShow(true) }} onMouseLeave={() => { setShow(false) }}>
@@ -18,7 +23,7 @@ const Project = ({ project }) => {
                         </ul>
                     </Card.Text>
                     <Card.Footer>
-                        <button className="btn btn-primary rounded-pill">See Details</button>
+                        <button onClick={() => { handleClick(project.id) }} className="btn btn-primary rounded-pill">See Details</button>
                     </Card.Footer>
                 </Card.Body>
             </Card>
