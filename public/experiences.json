@@ -2,63 +2,63 @@
     {
         "id": 1,
         "name": "HTML 5",
-        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/resized/html5.png",
+        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/icons/html.png",
         "progress": "90",
         "variant": "danger"
     },
     {
         "id": 2,
         "name": "CSS 3",
-        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/resized/css3.png",
+        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/icons/css3.png",
         "progress": "90",
         "variant": "primary"
     },
     {
         "id": 3,
         "name": "JavaScript",
-        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/resized/javascript.png",
+        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/icons/icons8-javascript-logo-50.png",
         "progress": "70",
         "variant": "warning"
     },
     {
         "id": 4,
         "name": "Firebase",
-        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/resized/firebase_logo.png",
+        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/icons/icons8-firebase-48.png",
         "progress": "80",
         "variant": "warning"
     },
     {
         "id": 5,
         "name": "React JS",
-        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/resized/react.png",
+        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/public/logo192.png",
         "progress": "85",
         "variant": "primary"
     },
     {
         "id": 6,
         "name": "Node JS",
-        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/resized/nodejs.png",
+        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/icons/icons8-nodejs-48.png",
         "progress": "60",
         "variant": "success"
     },
     {
         "id": 7,
         "name": "MongoDB",
-        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/resized/MongoDB-logo.png",
+        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/icons/icons8-mongodb-48.png",
         "progress": "80",
         "variant": "success"
     },
     {
         "id": 8,
         "name": "Express JS",
-        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/resized/express.js.png",
+        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/icons/javascript.gif",
         "progress": "75",
         "variant": "warning"
     },
     {
         "id": 9,
         "name": "Material UI",
-        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/resized/mui.png",
+        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/icons/material.png",
         "progress": "80",
         "variant": "primary"
     },
@@ -79,7 +79,7 @@
     {
         "id": 12,
         "name": "Github",
-        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/resized/github.png",
+        "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/icons/icons8-github-50.png",
         "progress": "95",
         "variant": "dark"
     }
