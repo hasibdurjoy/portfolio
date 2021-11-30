@@ -15,7 +15,7 @@ const ProjectDetails = () => {
     return (
         <div>
             <h2>This is navigate {project.name}</h2>
-            <a href={project.live - link}>Live</a>
+            <a href={project.liveLink}><button>Live Site</button></a> <br />
             <img src={project.landingPage} alt="" width="50%" />
         </div>
     );
