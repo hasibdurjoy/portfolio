@@ -18,7 +18,7 @@
         "name": "JavaScript",
         "image": "https://raw.githubusercontent.com/hasibdurjoy/portfolio/main/src/Utilities/images/icons/icons8-javascript-logo-50.png",
         "progress": "70",
-        "variant": "warning"
+        "variant": "dark"
     },
     {
         "id": 4,
