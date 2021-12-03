@@ -1,0 +1,9 @@
+.experience-image{
+    height: 80px;
+}
+
+@media only screen and (max-width: 700px) {
+    .experience-image{
+        height: 90px;
+    }
+  }

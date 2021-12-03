@@ -7,19 +7,41 @@ import Bounce from 'react-reveal/Bounce';
 import Rotate from 'react-reveal/Rotate';
 import Navigation from '../Navigation/Navigation';
 import image from '../../Utilities/wave.svg'
+import Particles from "react-tsparticles";
+import Typewriter from 'typewriter-effect';
+
 
 const Banner = () => {
+    const particlesInit = (main) => {
+        console.log(main);
+
+        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+    };
+
+    const particlesLoaded = (container) => {
+        console.log(container);
+    };
     return (
         <>
             <Navigation />
+
             <div className="banner" id="home">
                 <Container className="banner-container">
                     <Row xs={1} md={2} >
                         <Col className="d-flex flex-column justify-content-center text-start pb-5">
                             <Bounce left cascade>
                                 <h3>Hello!!! Welcome to <br />
-                                    <span className="text-danger fs-1 name" style={{ fontWeight: 900, letterSpacing: 1 }}>Hasibur Rahman </span> world
+                                    <span className="text-danger fs-1 name" style={{ fontWeight: 900, letterSpacing: 1 }}>
+                                        <Typewriter
+                                            options={{
+                                                strings: ['HASIBUR RAHMAN', 'WEB DEVELOPER'],
+                                                autoStart: true,
+                                                loop: true,
+                                            }}
+                                        />
+                                    </span> world
                                 </h3>
+
                             </Bounce>
                             <h5>
                                 <Zoom left cascade>
@@ -31,6 +53,15 @@ const Banner = () => {
                                     </span>
                                 </Zoom>
                                 {'  '}stack web developer
+                                <span className="text-success">
+                                    <Typewriter
+                                        options={{
+                                            strings: ['M', 'MongoDB', 'E', 'ExpressJS', 'R', 'ReactJS', 'N', 'NodeJS'],
+                                            autoStart: true,
+                                            loop: true,
+                                        }}
+                                    />
+                                </span>
                             </h5>
 
                             <div className="d-flex gap-2 justify-content-start">

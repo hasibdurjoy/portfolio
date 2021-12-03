@@ -6,3 +6,10 @@
     background-position: center;
     background-attachment: fixed;
 }
+
+@media only screen and (max-width: 700px) {
+    .experiences-image{
+        height: 250px;
+        width: 250px;
+    }
+  }

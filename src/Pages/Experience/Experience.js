@@ -3,6 +3,8 @@ import { Card, Col, ProgressBar } from 'react-bootstrap';
 import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
 import Rotate from 'react-reveal/Rotate';
+import Typewriter from 'typewriter-effect';
+import './Experience.css';
 
 const Experience = ({ experience }) => {
     const { name, image, progress, variant } = experience;
@@ -11,10 +13,18 @@ const Experience = ({ experience }) => {
             <Zoom>
                 <Card className="h-100 border-0 shadow">
                     <Bounce>
-                        <Card.Img className="p-2 w-50 mx-auto" variant="top" src={image} height="80px" />
+                        <Card.Img className="p-2 w-50 mx-auto experience-image" variant="top" src={image} />
                     </Bounce>
                     <Card.Body>
-                        <Card.Title>{name}</Card.Title>
+                        <Card.Title>
+                            <Typewriter
+                                options={{
+                                    strings: [`${name}`],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />
+                        </Card.Title>
                         <ProgressBar animated now={parseInt(progress)} label={`${parseInt(progress)}%`} variant={variant} />
                     </Card.Body>
                 </Card>
