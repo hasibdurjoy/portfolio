@@ -11,7 +11,7 @@ const Experience = ({ experience }) => {
     return (
         <Col>
             <Zoom>
-                <Card className="h-100 border-0 shadow">
+                <Card className="h-100 border-0 shadow experience-card">
                     <Bounce>
                         <Card.Img className="p-2 w-50 mx-auto experience-image" variant="top" src={image} />
                     </Bounce>
